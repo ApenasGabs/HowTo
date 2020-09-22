@@ -1,60 +1,83 @@
 <!DOCTYPE html>
 <html>
-<!-- head-cabeçalho -->
+  <!-- head-cabeçalho -->
 
-<head>
+  <head>
     <!--title-titulo -->
     <title>Criar Conta</title>
+  </head>
 
-</head>
+  <!--body-corpo -->
 
-<!--body-corpo -->
-
-<body>
+  <body>
     <!--h1-titulo de texto -->
     <h1>Como criar conta no GitHub</h1>
     <!--img-imagem -->
-    <img src="/pages/img/desktop-icon.svg" alt="Git-logo">
+    <img src="/pages/img/desktop-icon.svg" alt="Git-logo" />
     <!--hr-linha divisoria -->
-    <hr>
+    <hr />
     <!--nav-menu de/da navegação -->
     <nav>
-        <!--a href-hyperlink -->
-        <button><a href="/index.html">Pagina inicial</a></button>
-        <button><a href="/pages/Novo-repositorio.html">Novo repositorio</a></button>
-        <button><a href="/pages/adicionar_repositorio_local.html">Adcionar repositorio local</a></button>
-        <button><a href="/pages/Clonar-repositorio.html">Clonar repositorio</a></button>
-        <button><a href="/pages/support.html ">Fale conosco</a></button>
+      <!--a href-hyperlink -->
+      <button><a href="/index.html">Pagina inicial</a></button>
+      <button>
+        <a href="/pages/Novo-repositorio.html">Novo repositorio</a>
+      </button>
+      <button>
+        <a href="/pages/adicionar_repositorio_local.html"
+          >Adcionar repositorio local</a
+        >
+      </button>
+      <button>
+        <a href="/pages/Clonar-repositorio.html">Clonar repositorio</a>
+      </button>
+      <button><a href="/pages/support.html ">Fale conosco</a></button>
     </nav>
-
 
     <!--p-Parágrafo -->
     <p>
-        1 - Abra a página https://github.com/join em um navegador. Dá para usar qualquer navegador do seu computador, celular ou tablet.
+      1 - Abra a página https://github.com/join em um navegador. Dá para usar
+      qualquer navegador do seu computador, celular ou tablet.
     </p>
-    <img src="/pages/img/page1-imagem1.png" alt="Barra do navegador">
+    <img src="/pages/img/page1-imagem1.png" alt="Barra do navegador" />
     <p>
-        2 - Coloque seus dados pessoais. Além de criar um nome de usuário (Username) e informar um endereço de e-mail válido (Email address), você tem que inserir uma senha (Password). A senha deve ter pelo menos 15 caracteres OU pelo menos 8 caracteres, incluindo
-        um número e uma letra minúscula. Leia com atenção os Termos de Serviço e a Política de Privacidade antes de prosseguir (ambos estão em inglês). Ao dar continuidade ao processo de cadastro, você diz que concorda com os dois documentos.
+      2 - Coloque seus dados pessoais. Além de criar um nome de usuário
+      (Username) e informar um endereço de e-mail válido (Email address), você
+      tem que inserir uma senha (Password). A senha deve ter pelo menos 15
+      caracteres OU pelo menos 8 caracteres, incluindo um número e uma letra
+      minúscula. Leia com atenção os Termos de Serviço e a Política de
+      Privacidade antes de prosseguir (ambos estão em inglês). Ao dar
+      continuidade ao processo de cadastro, você diz que concorda com os dois
+      documentos.
     </p>
-    <img src="/pages/img/page1-imagem2.png" alt="">
+    <img src="/pages/img/page1-imagem2.png" alt="" />
     <p>
-        3- Fala a verificação CAPTCHA. As instruções variam de acordo com o que é solicitado. Siga as orientações para confirmar que é uma pessoa e não um robo. Se você receber uma mensagem que diga "Não foi possível verificar a sua resposta captcha" é porque
-        a extensão que bloqueia anúncios impediu a verificação CAPTCHA de aparecer. Desative todas as extensões desse tipo, atualize a página e clique em Verifique para começar.
+      3- Fala a verificação CAPTCHA. As instruções variam de acordo com o que é
+      solicitado. Siga as orientações para confirmar que é uma pessoa e não um
+      robo. Se você receber uma mensagem que diga "Não foi possível verificar a
+      sua resposta captcha" é porque a extensão que bloqueia anúncios impediu a
+      verificação CAPTCHA de aparecer. Desative todas as extensões desse tipo,
+      atualize a página e clique em Verifique para começar.
     </p>
-    <img src="/pages/img/page1-imagem3.png" alt="">
+    <img src="/pages/img/page1-imagem3.png" alt="" />
 
     <form action="">
-        <fieldset>
-            <label for="Nome">Nome:</label>
-            <input type="text" name="nome"><br><br>
-            <label for="Nome">E-mail:</label>
-            <input type="text" name="E-mail"><br><br>
-            <label for="Comente">Comentário:</label>
-            <textarea name="comentário"></textarea>
-            <input type="submit" value="Enviar" /><br>
-        </fieldset>
-    </form>
-</body>
+      <!--Caixa de comentários-->
 
+      <h2>Surgiu alguma dúvida?</h2>
+      <h2>Comente...</h2>
+      <fieldset>
+        <p>
+          <label for="Nome">Nome:</label>
+          <input type="text" name="nome" /><br /><br />
+          <label for="Nome">E-mail:</label> <input type="text" name="E-mail" />
+        </p>
+        <p>
+          <label for="Comente">Comentário:</label>
+        </p>
+        <textarea name="comentário" rows="3" cols="200"></textarea><br /><br />
+        <input type="submit" value="Enviar" />
+      </fieldset>
+    </form>
+  </body>
 </html>
