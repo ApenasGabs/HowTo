@@ -72,81 +72,29 @@
             </td>
         </tr>
     </table>
-<!--
-    <fieldset>
-        <form action="">
-            <h2>Deixe seu comentário</h2>
-                <br>
-                <textarea name="comentário" rows="3" cols="200"></textarea><br>
-                <p>
-                    Identifique-se:<br><br>
-                    <label for="Nome">Nome:</label>
-                    <input type="text" name="nome"><br><br>
-                    <label for="Nome">E-mail:</label>
-                    <input type="email" name="E-mail">
-                </p>
-            <br>
-        <input type="submit" value="Enviar" />
-        </form>
-    </fieldset>
-    Caixa de comentários-->
-    <fieldset>
-        <form action="">
-            <h2>Preencha os dados abaixo e tire suas dúvidas:</h2>
-            <p>
-                <label for="Nome">Seu Nome:</label>
-                <input type="text" name="nome"><br /><br />
-                <label for="Nome">Seu Email:</label>
-                <input type="email" name="E-mail"><br /><br />
-                <label for="Nome">Sua Dúvida:</label>
-                <textarea name="comentário" rows="3" cols="22"></textarea><br /><br />
-                <input type="submit" value="Enviar" />
+    <form action="">
+        <!--Caixa de comentários-->
+        <h1>Comentários</h1>
+        <fieldset>
+            <p>jorge </p><!--Mude esse campo-->
+            que legal eu adorei o site <!--Mude esse campo-->
             </p>
-        </form>
-    </fieldset>
-    <h3>Dúvidas de Leitores</h3>
-    <fieldset>
-        <dl>
-            <h4>Clique em "Responder Dúvida" e ajude a comunidade:</h4>
-            <fieldset>
-                <dt>
-                    <p>Dúvida de: LUCIANA KOJIMA </p><!--Nome Vindo do Formulario-->
-                </dt>
-                <dd>
-                    <p> >>> Ola, como eu conecto meu repositorio local com o da web via Terminal? </p><!--Dúvida do campo Sua Dúvida-->
-                        <input type="submit" value="Responder Dúvida" />
-                    <br /><br />
-                    <dl> <!--Para alinhamento das colunas de resposta utilizei a listagem dom identação dt dd-->>
-                        <dt>Respondido por: JORGE MIRA</dt>
-                        <dd> <p>
-                            >>> Olá Luciana, vou exemplificar como voce faria tudo bem,<br />
-                            >>> supondo que já criou tanto o repositório local como o Web,<br />
-                            >>> executamos o comando a baixo:<br /><br />
-                            <code>git remote add origin https://github.com/gbyteinfo/KotlinDeveloperCouseProjects.git</code><br /><br /><!-- Para mostrar codigos na pagina utilizei a tag code -->>
-                            >>> no lugar da <code>url</code> do exemplo, troque pelo sua<br />
-                            >>> para testar, execute o comando abaixo;<br /><br />
-                            <code>git remote add origin https://github.com/gbyteinfo/KotlinDeveloperCouseProjects.git</code><br /><br />
-                            >>> se tudo deu certo devera aparecer dessa forma no seu terminal<br /><br />
-                            <code>origin	https://github.com/flaviomicheletti/github-foo.git (fetch)</code><br />
-                            <code>origin	https://github.com/flaviomicheletti/github-foo.git (push)</code><br /><br />
-                            >>> Espero ter Ajudado, curta nossas redes sociais ;)
-                            </p>
-                        </dd>
-                    </dl>
-                </dd>
-            </fieldset>
-                <br /><br />
-            <fieldset>
-                <dt>
-                    <p>Dúvida de: () </p><!--Nome Vindo do Formulario-->
-                </dt>
-                <dd>
-                    <p> >>> ()</p><!--Dúvida do campo Sua Dúvida-->
-                        <input type="submit" value="Responder Dúvida" />
-                </dd>
-            </fieldset>
-        </dl>
-    </fieldset>
+        </fieldset><br>
+  
+        <h2>Deixe seu comentário</h2>
+        <fieldset>
+            <label for="Mensagem">Mensagem:</label><br>
+            <textarea name="comentário" rows="3" cols="200"></textarea><br>
+            <p>
+                Identifique-se:<br><br>
+                <label for="Nome">Nome:</label>
+                <input type="text" name="nome"><br><br>
+                <label for="Nome">E-mail:</label>
+                <input type="email" name="E-mail">
+            </p>
+        </fieldset><br>
+    <input type="submit" value="Enviar" />
+    <p></p>    
 </body>
 
 </html>
