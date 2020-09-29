@@ -1,0 +1,80 @@
+.form {
+  font-family: Arial, sans-serif;
+}
+
+.title-form {
+  font-size: 20px;
+  color: #7b2a8a;
+  margin-left: 100px;
+}
+
+.title-comentario {
+  font-size: 18px;
+  color: #7b2a8a;
+  margin: 50px 0 0 100px;
+}
+
+.comentario {
+  margin: 10px 80px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  background-color: #f7f8fa;
+}
+
+/* Formatação do icone de usuário no comentário */
+.comentario img {
+  width: 4rem;
+  align-items: center;
+  border-radius: 100px;
+  margin: 15px;
+}
+
+.container-input {
+  margin: 10px 80px 10px 80px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #f7f8fa;
+  border-color: none;
+}
+
+.identificador {
+  font-size: 14px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.campo {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+textarea {
+  width: 95% !important;
+  height: 80px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: #f7f8fa;
+}
+
+input {
+  width: 10rem;
+  height: 20px;
+  border-radius: 5px;
+  border: #f7f8fa;
+}
+
+.button {
+  margin-left: 100px;
+  width: 80px;
+  height: 25px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  border: none;
+}
+
+.button:hover {
+  background-color: #b9b9b9;
+}

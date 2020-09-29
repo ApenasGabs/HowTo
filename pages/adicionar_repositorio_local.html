@@ -6,6 +6,8 @@
     <!--title-titulo -->
     <title>Configuração / Adicionar Novo Repositório Local</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/comentarios.css">
 </head>
 
 <!--body-corpo -->
@@ -15,9 +17,9 @@
         <!--nav-menu de/da navegação -->
         <nav class="menu-nav">
             <!--a href-hyperlink -->
-            <button class="menu"><a class="menu-link"href="../index.html">Pagina inicial</a></button>
-            <button class="menu"><a class="menu-link"href="Criar-conta.html">Criar conta</a></button>
-            <button class="menu"><a class="menu-link"href="Novo-repositorio.html">Novo repositorio</a></button>
+            <button class="menu"><a class="menu-link"href="/index.html">Pagina inicial</a></button>
+            <button class="menu"><a class="menu-link"href="/pages/Criar-conta.html">Criar conta</a></button>
+            <button class="menu"><a class="menu-link"href="/pages/Novo-repositorio.html">Novo repositorio</a></button>
             <button class="menu"><a class="menu-link"href="/pages/Clonar-repositorio.html">Clonar repositorio</a></button>
             <button class="menu"><a class="menu-link"href="/pages/support.html ">Fale conosco</a></button>
         </nav>
@@ -71,28 +73,33 @@
             </td>
         </tr>
     </table>
-    <form action="">
+    <form class="form">
         <!--Caixa de comentários-->
-        <h1>Comentários</h1>
-        <fieldset>
-            <p>jorge </p><!--Mude esse campo-->
-            que legal eu adorei o site <!--Mude esse campo-->
-            </p>
-        </fieldset><br>
-  
-        <h2>Deixe seu comentário</h2>
-        <fieldset>
-            <label for="Mensagem">Mensagem:</label><br>
-            <textarea name="comentário" rows="3" cols="200"></textarea><br>
-            <p>
-                Identifique-se:<br><br>
-                <label for="Nome">Nome:</label>
-                <input type="text" name="nome"><br><br>
-                <label for="Nome">E-mail:</label>
-                <input type="email" name="E-mail">
-            </p>
-        </fieldset><br>
-    <input type="submit" value="Enviar" />
+        <h1 class="title-form">Comentários</h1>
+        <div class="comentario">
+            <div>
+                <img src="/pages/img/icon-usuario02.png" alt="usuário">
+            </div>
+            <div>
+                <p><b>Jorge</b></p><!--Mude esse campo-->
+                    Que legal eu adorei o site <!--Mude esse campo-->
+                </p>
+            </div>
+        </div>
+        
+        <!-- Entrada de comentários -->
+        <h2 class="title-comentario">Deixe seu comentário</h2>
+        <div class="container-input">
+            <label class="identificador" for="Mensagem">Mensagem:</label>
+            <textarea name="comentário"></textarea>
+            <label class="identificador">Identifique-se:</label>
+            <label class="campo" for="Nome">Nome:</label>
+            <input type="text" name="nome"><br><br>
+            <label class="campo" for="Nome">E-mail:</label>
+            <input type="email" name="E-mail">
+        </div>
+    </form>
+    <input class="button" type="submit" value="Enviar" />
     <p></p>    
 </body>
 

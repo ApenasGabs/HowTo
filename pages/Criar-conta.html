@@ -6,6 +6,8 @@
     <!--title-titulo -->
     <title>Criar Conta</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/comentarios.css">
   </head>
 
   <!--body-corpo -->
@@ -63,35 +65,33 @@
     </p>
     <img src="/pages/img/page1-imagem3.png" alt="" />
 
-    <form action="">
+    <form class="form">
       <!--Caixa de comentários-->
-      <h1>Comentários</h1>
+      <h1 class="title-form">Comentários</h1>
+      <div class="comentario">
+          <div>
+              <img src="/pages/img/icon-usuario03.png" alt="usuário">
+          </div>
+          <div>
+              <p><b>João Silva</b></p><!--Mude esse campo-->
+                Me sinto uma criança aprendendo,Valeu!! <!--Mude esse campo-->
+              </p>
+          </div>
+      </div>
       
-      <fieldset>
-          <p>Giovanna</p><!--Mude esse campo-->
-          Voces explicam como se fosse pra um acéfalo, assim que preciso, obrigada!   <!--Mude esse campo-->
-          </p>
-      </fieldset><br>
-
-      <fieldset>
-        <p>João da Silva</p><!--Mude esse campo-->
-        Me sinto uma criança aprendendo,Valeu!  <!--Mude esse campo-->
-        </p>
-    </fieldset><br>
-
-      <h2>Deixe seu comentário</h2>
-      <fieldset>
-          <label for="Mensagem">Mensagem:</label><br>
-          <textarea name="comentário" rows="3" cols="200"></textarea><br>
-          <p>
-              Identifique-se:<br><br>
-              <label for="Nome">Nome:</label>
-              <input type="text" name="nome"><br><br>
-              <label for="Nome">E-mail:</label>
-              <input type="email" name="E-mail">
-          </p>
-      </fieldset><br>
-  <input type="submit" value="Enviar" />
+      <!-- Entrada de comentários -->
+      <h2 class="title-comentario">Deixe seu comentário</h2>
+      <div class="container-input">
+          <label class="identificador" for="Mensagem">Mensagem:</label>
+          <textarea name="comentário"></textarea>
+          <label class="identificador">Identifique-se:</label>
+          <label class="campo" for="Nome">Nome:</label>
+          <input type="text" name="nome"><br><br>
+          <label class="campo" for="Nome">E-mail:</label>
+          <input type="email" name="E-mail">
+      </div>
+  </form>
+  <input class="button" type="submit" value="Enviar" />
   <p></p>
   </body>
 </html>

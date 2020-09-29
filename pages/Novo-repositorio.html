@@ -11,6 +11,8 @@
     <!--title-titulo -->
     <title>Configuração/Instalação do GitHub</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/comentarios.css">
   </head>
 
   <!--body-corpo -->
@@ -33,7 +35,7 @@
 
     <div class="title-topo">
       <!--h1-titulo de texto -->
-      <h1>GitHelp / Instalação do GitHub</h1>
+      <h1>GitHelp / Novo repositorio</h1>
       <!-- <p>
         Concentre-se no que importa em vez de lutar com o Git. Quer você seja novo no Git ou um usuário experiente, o GitHub Desktop simplifica seu fluxo de trabalho de desenvolvimento.
       </p> -->
@@ -122,28 +124,33 @@
       </tr>
     </table>
 
-    <form action="">
+    <form class="form">
       <!--Caixa de comentários-->
-      <h1>Comentários</h1>
-      <fieldset>
-          <p>Sophia </p><!--Mude esse campo-->
-          Nossa, é tão facil se eu soubesse disso antes... <!--Mude esse campo-->
-          </p>
-      </fieldset><br>
-
-      <h2>Deixe seu comentário</h2>
-      <fieldset>
-          <label for="Mensagem">Mensagem:</label><br>
-          <textarea name="comentário" rows="3" cols="200"></textarea><br>
-          <p>
-              Identifique-se:<br><br>
-              <label for="Nome">Nome:</label>
-              <input type="text" name="nome"><br><br>
-              <label for="Nome">E-mail:</label>
-              <input type="email" name="E-mail">
-          </p>
-      </fieldset><br>
-  <input type="submit" value="Enviar" />
+      <h1 class="title-form">Comentários</h1>
+      <div class="comentario">
+          <div>
+              <img src="/pages/img/icon-usuario00.png" alt="usuário">
+          </div>
+          <div>
+              <p><b>Sophia</b></p><!--Mude esse campo-->
+              Nossa, é tão facil se eu soubesse disso antes...! <!--Mude esse campo-->
+              </p>
+          </div>
+      </div>
+      
+      <!-- Entrada de comentários -->
+      <h2 class="title-comentario">Deixe seu comentário</h2>
+      <div class="container-input">
+          <label class="identificador" for="Mensagem">Mensagem:</label>
+          <textarea name="comentário"></textarea>
+          <label class="identificador">Identifique-se:</label>
+          <label class="campo" for="Nome">Nome:</label>
+          <input type="text" name="nome"><br><br>
+          <label class="campo" for="Nome">E-mail:</label>
+          <input type="email" name="E-mail">
+      </div>
+  </form>
+  <input class="button" type="submit" value="Enviar" />
   <p></p>
   </body>
 </html>
