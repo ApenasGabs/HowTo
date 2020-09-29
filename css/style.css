@@ -1,0 +1,42 @@
+/* Margem das páginas*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo Aplicado ao topo e botões */
+.topo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  background: #24292d;
+  padding: 10px 0;
+}
+
+.topo img {
+  width: 32px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.menu {
+  font-size: 12px;
+  background: none;
+  border: none;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-link:hover {
+  color: #ffffffb3;
+}
+
+.title-topo {
+  margin-left: 12px;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+}
