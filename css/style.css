@@ -83,7 +83,18 @@
 /* Pagina Adicionar repositorio */
 
 /* Pagina Clonar repostitorio  */
-
+.gridcontainer ,h2{
+  display: grid;
+  grid-column-gap: 20px;
+  background-color: #7b2a8a;
+  padding: 10px;
+}
+.gridcontainer tr,h2{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  text-align: center;
+}
 /* Pagina Criar conta */
 
 /* Pagina Novo repositorio */
